@@ -1,0 +1,10 @@
+{
+    "request":
+        {
+            "userAttributes": {
+                "email": "qwe@wewe.edxad",
+                "nickName": "string"
+            }
+        },
+    "response": {}
+}
