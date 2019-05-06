@@ -1,4 +1,4 @@
-# SayYourMoive
+# FindYourMoive
 Demo Link: https://2019-spring-information-retrieval.github.io/Movie-Website/
 
 
