@@ -18,17 +18,17 @@ Our project is to build a movie website that provides basic information of movie
 
 
 
-Based on the indexing results of on title, plot and script, here we merge the results together and measure a rank of the search results. (refer to [queryWorker.py](https://github.com/2019-Spring-Information-Retrieval/backend/blob/master/queryWorker.py))
+Based on the indexing results of on title, plot and script, here we merge the results together and measure a rank of the search results. (refer to [queryWorker.py](https://github.com/lionandbull/movie-react/blob/master/AdvancedSearch/queryWorker.py))
 
 
-For word frequency indexes, we use TF-IDF (skLearn) to measure the ranking scores; while for positional indexes, we use Cosine Similarity (numpy) to measure the ranking scores. (refer to [rankWorker.py](https://github.com/2019-Spring-Information-Retrieval/backend/blob/master/rankWorker.py#L167))
+For word frequency indexes, we use TF-IDF (skLearn) to measure the ranking scores; while for positional indexes, we use Cosine Similarity (numpy) to measure the ranking scores. (refer to [rankWorker.py](https://github.com/lionandbull/movie-react/blob/master/AdvancedSearch/rankWorker.py#L167))
 
 
 ### Learning Index Weights
 
-Based on the ranking scores of different indexes, we measure the weighted sum of ranking scores as the final ranking scores of every candidate search result. (refer to [rankWorker.py](https://github.com/2019-Spring-Information-Retrieval/backend/blob/master/rankWorker.py#L11))
+Based on the ranking scores of different indexes, we measure the weighted sum of ranking scores as the final ranking scores of every candidate search result. (refer to [rankWorker.py](https://github.com/lionandbull/movie-react/blob/master/AdvancedSearch/rankWorker.py#L11))
 
-We use Logistic Regression to learn the weights of every ranking score, where the loss function meansuring distance between target ranking order and predicted ranking order. (refer to []())
+We use Logistic Regression to learn the weights of every ranking score, where the loss function meansuring distance between target ranking order and predicted ranking order. 
 
 
 ### Labs Features
